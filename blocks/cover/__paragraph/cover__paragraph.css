@@ -1,0 +1,22 @@
+.cover__paragraph {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 360px;
+  max-height: 66px;
+  width: 100%;
+  align-self: center;
+  padding-top: 32px;
+  margin: 0;
+}
+
+@media all and (max-width: 320px) {
+  .cover__paragraph {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 288px;
+    max-height: 48px;
+    padding-top: 16px;
+    margin-top: 0;
+  }
+}

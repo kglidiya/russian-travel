@@ -1,0 +1,9 @@
+.footer__link-item {
+  padding-right: 18px;
+}
+
+@media all and (max-width: 320px) {
+  .footer__link-item {
+    padding-bottom: 32px;
+  }
+}

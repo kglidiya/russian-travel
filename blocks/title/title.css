@@ -1,0 +1,39 @@
+.title {
+    width: 100%;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #ffffff;
+    max-width: 460px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 1024px) {
+  .title {
+    max-width: 440px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .title {
+    max-width: 340px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+
+@media all and (max-width: 320px) {
+  .title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+    margin-left: 16px;
+  }
+
+}

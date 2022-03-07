@@ -1,0 +1,25 @@
+.page {
+    margin: 0;
+    padding: 0;
+    background-color: #2a2c2f;
+    height: 100vh;
+    width: 100%;
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  @media screen and (max-width: 1024px) {
+
+    .page {
+      overflow-x:hidden;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .page {
+      overflow-x:hidden;
+    }
+  }
+
+  /** {
+    border: solid red 1px;
+  }*/
