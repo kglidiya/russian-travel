@@ -16,8 +16,6 @@
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(4, 1fr);
       gap: 14px;
-      margin-top: 92px;
-      margin-bottom: 92px;
     }
   }  
 
@@ -34,11 +32,11 @@
 
   @media all and (max-width: 320px) {
     .photo-grid {
-      display: grid;
       max-width: 288px;
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: repeat(12, 1fr);
       gap: 12px;
-      margin: 64px auto 64px auto;
+      margin-top: 64px;
+      margin-bottom: 64px;
     }
   }

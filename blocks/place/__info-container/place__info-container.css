@@ -5,7 +5,6 @@
 
   @media all and (max-width: 320px) {
     .place__info-container {
-      display: flex;
       flex-wrap: wrap;
       margin-bottom: 32px;
     }

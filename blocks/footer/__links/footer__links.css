@@ -9,7 +9,6 @@
 
 @media all and (max-width: 320px) {
   .footer__links {
-    list-style: none;
     display: block;
   }
 }
